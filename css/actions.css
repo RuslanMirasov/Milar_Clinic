@@ -1,0 +1,46 @@
+.customActions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 40px;
+  position: relative;
+}
+
+.customActions__title {
+  display: block;
+  width: 100%;
+  font-family: "Berlingske Serif";
+  font-size: 30px;
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+.customActions__item {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  font-family: "LatoWeb";
+  font-weight: 400;
+  border-radius: 15px;
+  position: relative;
+  background: #004a8d;
+  color: #fff;
+  padding: 40px;
+  width: calc(50% - 20px);
+  min-height: 480px;
+}
+
+.customActions__item .font {
+  font-family: "Berlingske Serif" !important;
+}
+
+.customActions__item .bold {
+  font-weight: 600 !important;
+}
+
+.customActions__item .regular {
+  font-weight: 400 !important;
+}
