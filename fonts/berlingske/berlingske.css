@@ -1,0 +1,13 @@
+@font-face {
+  font-family: "Berlingske Serif";
+  src: url("berlingske/BerlingskeSerif-Regular.eot");
+  src: local("Berlingske Serif Regular"), local("BerlingskeSerif-Regular"),
+    url("berlingske/BerlingskeSerif-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("berlingske/BerlingskeSerif-Regular.woff2") format("woff2"),
+    url("berlingske/BerlingskeSerif-Regular.woff") format("woff"),
+    url("berlingske/BerlingskeSerif-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
