@@ -8,6 +8,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 50px 0px;
+  padding: 0;
+}
+
+#block-actions-inner .customActions {
+  margin: 0px;
 }
 
 .customActions__title {
@@ -66,6 +71,8 @@
 .actionArticle h5,
 .actionArticle h6 {
   display: block;
+  font-family: "LatoWeb" !important;
+  margin: 0 !important;
   width: 100%;
   font-weight: 400;
   line-height: 1.2;
@@ -78,7 +85,7 @@
   font-family: "Berlingske Serif" !important;
 }
 .customActions__item .bold {
-  font-weight: 600 !important;
+  font-weight: 500 !important;
 }
 .customActions__item .through {
   text-decoration: line-through !important;
