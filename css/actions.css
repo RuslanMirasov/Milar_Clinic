@@ -105,9 +105,17 @@
   font-size: 55px;
   line-height: 1;
 }
+.customActions__item .fs--42 {
+  font-size: 42px;
+  line-height: 1;
+}
 .customActions__item .fs--40 {
   font-size: 40px;
   line-height: 1;
+}
+.customActions__item .fs--36 {
+  font-size: 30px;
+  line-height: 1.1;
 }
 .customActions__item .fs--30 {
   font-size: 30px;
@@ -241,6 +249,8 @@
 
 .actionArticle .label.label--brown.handle {
   cursor: pointer;
+  padding: 14px 20px;
+  line-height: 1.2;
   transition: 0.3s;
   box-shadow: -5px 5px 30px rgba(190, 145, 90, 0);
 }
