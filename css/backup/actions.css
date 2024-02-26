@@ -16,7 +16,11 @@
   margin-bottom: 40px;
 }
 
-body.single-service #block-actions-inner .customActions .customActions__title h2 {
+body.single-service
+  #block-actions-inner
+  .customActions
+  .customActions__title
+  h2 {
   margin-bottom: 0px !important;
 }
 
@@ -28,7 +32,7 @@ body.single-service #block-actions-inner .customActions {
 .customActions__title {
   display: block;
   width: 100%;
-  font-family: 'Berlingske Serif';
+  font-family: "Berlingske Serif";
   font-size: 30px;
   line-height: 1.1;
   font-weight: 600;
@@ -40,7 +44,7 @@ body.single-service #block-actions-inner .customActions {
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
-  font-family: 'LatoWeb';
+  font-family: "LatoWeb";
   font-weight: 400;
   border-radius: 15px;
   position: relative;
@@ -81,7 +85,7 @@ body.single-service #block-actions-inner .customActions {
 .actionArticle h5,
 .actionArticle h6 {
   display: block;
-  font-family: 'LatoWeb' !important;
+  font-family: "LatoWeb" !important;
   margin: 0 !important;
   width: 100%;
   font-weight: 400;
@@ -89,10 +93,10 @@ body.single-service #block-actions-inner .customActions {
 }
 
 .customActions__item .rub {
-  font-family: 'Arial';
+  font-family: "Arial";
 }
 .customActions__item .font {
-  font-family: 'Berlingske Serif' !important;
+  font-family: "Berlingske Serif" !important;
 }
 .customActions__item .bold {
   font-weight: 500 !important;
@@ -195,7 +199,7 @@ body.single-service #block-actions-inner .customActions {
   justify-content: center;
   align-items: center;
   align-content: center;
-  font-family: 'LatoWeb', sans-serif;
+  font-family: "LatoWeb", sans-serif;
   font-weight: 400;
   background-color: var(--gold, #be915a);
   color: #fff;
@@ -447,7 +451,7 @@ body.single-service #block-actions-inner .customActions {
   display: block;
   width: 100%;
   text-align: center;
-  font-family: 'LatoWeb';
+  font-family: "LatoWeb";
   font-weight: 500;
   font-size: 26px;
   line-height: 1;
@@ -466,46 +470,4 @@ body.single-service #block-actions-inner .customActions {
 
 #action-modal .blue {
   color: #004a8d !important;
-}
-
-.procentList {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  width: 100%;
-  margin-top: 12px;
-  max-width: 292px;
-}
-
-.procentList div span {
-  display: block;
-  width: 100%;
-}
-
-.procentList div {
-  background: #fff;
-  box-sizing: border-box;
-  color: #004a8d;
-  border-radius: 6px;
-  padding: 8px 10px;
-  max-width: 140px;
-}
-
-.procentList div:last-child {
-  max-width: 207px;
-}
-
-@media screen and (max-width: 519px) {
-  .procentList {
-    max-width: 100%;
-  }
-  .procentList div {
-    background: #004a8d;
-    color: #fff;
-    max-width: calc(50% - 6px);
-    width: 100%;
-  }
-  .procentList div:last-child {
-    max-width: 100%;
-  }
 }
