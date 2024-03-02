@@ -491,7 +491,7 @@ body.single-service #block-actions-inner .customActions {
   max-width: 140px;
 }
 
-.procentList div:last-child {
+.procentList div.spetial {
   max-width: 207px;
 }
 
@@ -505,7 +505,7 @@ body.single-service #block-actions-inner .customActions {
     max-width: calc(50% - 6px);
     width: 100%;
   }
-  .procentList div:last-child {
+  .procentList div.spetial {
     max-width: 100%;
   }
 }
