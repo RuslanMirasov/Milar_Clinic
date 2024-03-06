@@ -62,6 +62,41 @@ body.single-service #block-actions-inner .customActions {
   margin-top: 16px;
 }
 
+.actionArticle ul,
+.actionArticle ol {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.actionArticle ul li,
+.actionArticle ol li {
+  display: block;
+  position: relative;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.actionArticle ul li:before,
+.actionArticle ol li:before {
+  content: '';
+  width: 4px;
+  height: 4px;
+  border-radius: 10px;
+  position: absolute;
+  left: 0px;
+  top: 4px;
+  background: #fff;
+}
+
+@media screen and (max-width: 519px) {
+  .actionArticle ul li:before,
+  .actionArticle ol li:before {
+    background: #004a8d;
+  }
+}
+
 .actionArticle {
   display: flex;
   flex-wrap: wrap;
@@ -167,7 +202,12 @@ body.single-service #block-actions-inner .customActions {
 .customActions__item .fs--14 {
   font-size: 14px;
 }
-
+.customActions__item .fs--12 {
+  font-size: 12px;
+}
+.customActions__item .fs--10 {
+  font-size: 10px;
+}
 .actionBg {
   display: block;
   position: absolute;
@@ -471,6 +511,7 @@ body.single-service #block-actions-inner .customActions {
 .procentList {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 12px;
   width: 100%;
   margin-top: 12px;
@@ -488,11 +529,16 @@ body.single-service #block-actions-inner .customActions {
   color: #004a8d;
   border-radius: 6px;
   padding: 8px 10px;
+  max-width: 154px;
+}
+
+.procentList div.w140 {
   max-width: 140px;
+  min-height: 76px;
 }
 
 .procentList div.spetial {
-  max-width: 207px;
+  max-width: 230px;
 }
 
 @media screen and (max-width: 519px) {
