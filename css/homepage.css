@@ -1,22 +1,23 @@
 /* HERO SECTION */
-
-.heroContent {
+.grayContainer {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: space-between;
-  align-content: space-between;
   margin: 50px auto;
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 500px;
   border-radius: 20px;
   background: #f8f8f8;
   padding: 42px;
   box-sizing: border-box;
   font-family: 'LatoWeb';
   font-weight: 400;
+}
+.heroContent {
+  justify-content: space-between;
+  align-content: space-between;
+  min-height: 500px;
 }
 
 .heroContent__background {
@@ -32,6 +33,7 @@
 
 .titleBox {
   display: flex;
+  width: 100%;
   flex-wrap: wrap;
   gap: 20px;
   position: relative;
@@ -58,7 +60,7 @@
   font-weight: 500;
 }
 .hero__subtitle {
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px 20px 0px;
 }
 .titleBox > * {
   width: 100%;
@@ -98,4 +100,80 @@
   background: #be915a;
   padding: 4px 8px;
   border-radius: 10px;
+}
+
+/* ABOUT SECTION */
+.section--about .heroContent {
+  min-height: 0px;
+}
+.customTitle {
+  display: block;
+  width: 100%;
+  font-family: 'Berlingske Serif';
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+h2.customTitle {
+  font-size: 45px;
+}
+
+h3.customTitle {
+  font-size: 20px;
+  font-family: 'LatoWeb';
+  font-weight: 500;
+}
+
+.section--about h3.customTitle {
+  max-width: 350px;
+  line-height: 1.4;
+  margin: 20px 0px 60px 0px;
+}
+
+.experiense {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.experiense li {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  padding: 30px;
+  background: #fff;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: calc(33.333333% - 20px * 2 / 3);
+}
+.experiense li span {
+  display: flex;
+  flex-wrap: wrap;
+  width: 40px;
+  height: 40px;
+  background: #be915a;
+  color: #fff;
+  border-radius: 50%;
+  justify-content: center;
+  align-content: center;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.experiense li span svg {
+  display: block;
+  max-width: 54%;
+  fill: currentColor;
+}
+.experiense li h4 {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+}
+.experiense li p {
+  width: 100%;
+  font-size: 14px;
+  opacity: 0.7;
 }
