@@ -68,6 +68,8 @@ body.single-service #block-actions-inner .customActions {
   width: 100%;
   flex-wrap: wrap;
   gap: 8px;
+  padding: 0;
+  margin: 0;
 }
 
 .actionArticle ul li,
@@ -207,6 +209,7 @@ body.single-service #block-actions-inner .customActions {
 }
 .customActions__item .fs--10 {
   font-size: 10px;
+  line-height: 1.2;
 }
 .actionBg {
   display: block;
