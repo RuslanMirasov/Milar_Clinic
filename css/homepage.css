@@ -177,3 +177,19 @@ h3.customTitle {
   font-size: 14px;
   opacity: 0.7;
 }
+
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  animation: marquee 10s linear infinite;
+}
